@@ -15,5 +15,5 @@
 sed -i "s/192.168.1.1/10.0.0.2/" package/base-files/files/bin/config_generate
 
 
-sed -i "s/ImmortalWrt/ababwnq build $(TZ=UTC-8 date "+%Y.%m.%d") @ KING /g" package/base-files/files/bin/config_generate
 
+sed -i "s/(\(luciversion || ''\))/(\1) + (' \/ $WRT_REPO-$WRT_DATE') @ KING /g" $(find ./feeds/luci/modules/luci-mod-status/ -type f -name "10_system.js")
