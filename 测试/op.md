@@ -1,4 +1,2 @@
-11
-ewe
-immortalwrt
-![image](https://github.com/00485/A/assets/98136757/8d4f9392-0a65-4b2c-b210-67e6c13bbb68)
+
+![image](https://github.com/00485/A/assets/98136757/2a6650ea-74ea-49ae-bfff-a29f2402fbfb)
